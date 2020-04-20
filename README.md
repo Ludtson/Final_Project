@@ -134,7 +134,7 @@ Run the tool CheckM, which will assess the quality of the genomes that were binn
 
 **Rename `SRR396637.sra_1.fastq` and `SRR396637.sra_2.fastq` to `Plot1.1.raw.R1.fq` and `Plot1.1.raw.R2.fq`, respectively.**
 
-### Directions for Cloning repositry and executing the CPR_Genome_Processing
+### Directions for Cloning repositry and executing CPR_Genome_Processing.sh
 **Create a folder for the repository**
 
 `mkdir Final_Project`
@@ -151,11 +151,11 @@ Run the tool CheckM, which will assess the quality of the genomes that were binn
 
 `git clone git@github.com:fsm2020/Final_Project.git`
 
-**Change directories into the new Final_Project**
+**Change directories into the new /Final_Project**
 
 `cd Final_Project`
 
-**Change directories into Data_Files**
+**Change directories into /Data_Files**
 
 `cd Data_Files`
 
@@ -208,7 +208,7 @@ Dependencies are used as needed by activating the environment as needed.
 ### Instructions
 Before using this script:
 Make sure data files are in FASTQ format and in the SAME directory as the script (CPR_Genome_Processing.sh).
-In this example, make sure `Plot1.1.raw.R1.fq` and `Plot1.1.raw.R2.fq` are in the Data_Files directory with 
+In this example, make sure `Plot1.1.raw.R1.fq` and `Plot1.1.raw.R2.fq` are in the /Data_Files directory with 
 CPR_Genome_Processing.sh
 
 ### Running CPR Genome Processing
@@ -236,14 +236,14 @@ Memory: 16gb
 **To see a completed example, view the `FINAL_PROJ_1.o400178` in the "/Completed_Example_Job" directory.**
 
 This demonstrates the typical results produced by the CPR_Genome_Process.sh script
-Additionally, at the bottom it is clear that `1 bin` was produced (see below). Finally, view the final output of the script in the `Final_Project/Data_Files/Plot1.CheckMrun/` directory. There is a file `Bacteria.ms` which contains information about the genome bin assessed.
+Additionally, at the bottom it is clear that `1 bin` was produced (see below). Finally, view the final output of the script in the `/Final_Project/Data_Files/Plot1.CheckMrun` directory. There is a file `Bacteria.ms` which contains information about the genome bin assessed.
 ```
 Bin 1 (5888915 bases in 293 contigs) was saved to: Plot1.contigs.fasta.metabat-bins12/bin.1.fa
 [00:00:01] 97.50% (5888915 bases) of large (>=2500) and 0.00% (0 bases) of small (<2500) contigs were binned.
 1 bins (5888915 bases in total) formed.
 Finished metabat2
 ```
-This is expected behavior as we provided a FastQ file containing only 1 genome.
+This is expected behavior as we provided a FASTQ file containing only 1 genome.
 
 ### Future Tests
 
