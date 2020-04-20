@@ -170,7 +170,7 @@ Run the tool CheckM, which will assess the quality of the genomes that were binn
 
 `cd ~/Final_Project/Final_Project/Scripts`
 
-`chmod +x Binning.sh CheckM.sh Mapping.sh ReadProcess.sh ReadProcess1.sh ReadProcess2.sh ReadProcess3.sh SPAdesAssembly.sh`
+`chmod +x Binning.sh CheckM.sh Mapping.sh ReadProcess.sh ReadProcessing1.sh ReadProcessing2.sh ReadProcessing3.sh SPAdesAssembly.sh`
 
 ### Channels, Dependencies, and Modules
 ```  
