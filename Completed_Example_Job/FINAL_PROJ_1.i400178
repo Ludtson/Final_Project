@@ -1,0 +1,19 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: ReadProcess.sh
+  The time limit is 1:45:00 HH:MM:SS.
+  The target directory is: /home/aubfsm/Final_Project/Final_Project/Data_Files
+  The memory limit is: 16gb
+  The job will start running after: 2020-04-19T16:06:13
+  Job Name: FINAL_PROJ_1
+  Virtual queue: express
+  QOS: --qos=express
+  Constraints: --constraint=dmc
+  Command typed:
+/apps/scripts/run_script ReadProcess.sh     
+  Queue submit command:
+sbatch --qos=express -J FINAL_PROJ_1 --begin=2020-04-19T16:06:13 --requeue --mail-user=fsm0005@auburn.edu -o FINAL_PROJ_1.o$SLURM_JOB_ID -t 1:45:00 -N 1-1 -n 1 --mem-per-cpu=16000mb --constraint=dmc 
+  Job number: 400178
+ 

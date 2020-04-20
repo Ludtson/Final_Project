@@ -1,0 +1,11 @@
+#The CPR Genome environment (Environments/cpr_genome_env.yaml).
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - trimmomatic=0.39
+#  - spades=3.14.0
+#  - bwa=0.7.15
+  - metabat2=2.15.0
+  - checkm-genome=1.1.2
